@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/stylePerso.css">
     <title>Hello, world!</title>
   </head>
   <body>

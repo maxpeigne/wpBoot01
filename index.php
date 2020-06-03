@@ -21,14 +21,12 @@
   </div>
 </nav>
 </div>
-<div>
-<div class="container">
-    <div class="jumbotron">
-    
-        <h1>Bienvenue sur Automacile !</h1>
-    </div>                       
+
+<!-- JUMBOTRON -->
+<div class="coverlayDeTete">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/industrial-robot-technology-work-future-power_shutterstock_1160699962.jpg" class="img-fluid h-100 d-inline-block" alt="Automacile">
 </div>
-    
+
 <div class="container">
     <div class="card-deck">
         <div class="card align">
@@ -61,26 +59,32 @@
     <p></p>
 </div>
 <div class="container">
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3y2ahAvV6XY" allowfullscreen></iframe>
-    </div>
-</div>
-<div class="container">
     <p></p>
 </div>
-<div class="container">
-    <ul class="list-inline">
-        <li class="list-inline-item">Je</li>
-        <li class="list-inline-item">Suis</li>
-        <li class="list-inline-item">Une Liste</li>
-        <li class="list-inline-item">Inline</li>
-    </ul>
 
-    <p>    
-        Itaque tum Scaevola cum in eam ipsam mentionem incidisset, exposuit nobis sermonem Laeli de amicitia habitum ab illo secum et cum altero genero, C. Fannio Marci filio, paucis diebus post mortem Africani. Eius disputationis sententias memoriae mandavi, quas hoc libro exposui arbitratu meo; quasi enim ipsos induxi loquentes, ne 'inquam' et 'inquit' saepius interponeretur, atque ut tamquam a praesentibus coram haberi sermo videretur.
-     </p><p>   
-        Ob haec et huius modi multa, quae cernebantur in paucis, omnibus timeri sunt coepta. et ne tot malis dissimulatis paulatimque serpentibus acervi crescerent aerumnarum, nobilitatis decreto legati mittuntur: Praetextatus ex urbi praefecto et ex vicario Venustus et ex consulari Minervius oraturi, ne delictis supplicia sint grandiora, neve senator quisquam inusitato et inlicito more tormentis exponeretur.
-    </p>
+<!-- Carousselle -->
+<div class="container">
+    <p></p>
+    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apprenant.jpg" class="d*block w-100" alt="Apprenant">
+            </div>
+            <div class="carousel-item">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apprenant2.jpg" class="d*block w-100" alt="Apprenant">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Precedent</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Precedent</span>
+        </a>
+    </div>  
+     <p></p>
 </div>
+
 
 <?php get_footer(); ?>
