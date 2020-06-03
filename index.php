@@ -23,8 +23,12 @@
 </div>
 
 <!-- JUMBOTRON -->
-<div class="coverlayDeTete">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/industrial-robot-technology-work-future-power_shutterstock_1160699962.jpg" class="img-fluid h-100 d-inline-block" alt="Automacile">
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">I am Jane Doe</h1>
+    <h3>And I'm a Photographer</h3>
+    <button>Hire me</button>
+  </div>
 </div>
 
 <div class="container">
